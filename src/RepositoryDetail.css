@@ -1,0 +1,85 @@
+.repository-page {
+    min-height: 100vh;
+    color: rgb(75, 74, 74);
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+  
+.repository-card {
+    width: 60vw;
+    text-align: center;
+    min-height: 80vh;
+    margin: 5vh;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+  
+.user-pic {
+    width: 25%;
+}
+  
+.owner-link a {
+    color: rgb(75, 74, 74);
+}
+
+.owner-link a:visited {
+    color: #70a4f7;
+}
+
+.list-of-languages p {
+    font-weight: 600;
+}
+
+.list-of-languages ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.list-of-languages ul li {
+    padding: 5px;
+}
+
+.list-of-contributors p {
+    font-weight: 600;
+}
+
+.list-of-contributors ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 10vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.list-of-contributors ul li {
+    padding: 5px;
+}
+
+.back-to-search-btn {
+    background: #a1c4fd;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    width: 90%;
+    cursor: pointer;
+    color: rgb(54, 53, 53);
+}

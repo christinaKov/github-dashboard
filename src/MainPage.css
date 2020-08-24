@@ -1,0 +1,97 @@
+.search-form {
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar {
+    width: 50vw;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.search-button {
+    background: #a1c4fd;
+    color: rgb(75, 74, 74);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.repositories-list {
+    width: 60vw;
+    text-align: center;
+    min-height: 80vh;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.repositories-list ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.repository-link {
+    color: rgb(75, 74, 74);
+    text-decoration: none;
+}
+
+.repositories-list li {
+    margin: 5px;
+    padding: 10px;
+}
+
+.repositories-list li :hover {
+    background-color: rgb(224, 224, 224);
+    border-radius: 5px;
+}
+
+.repository-item li {
+    padding: 0;
+}
+
+.repository-item .repository-name {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.repository-item a {
+    color: rgb(75, 74, 74);
+}
+
+.repository-link a:visited {
+    color: #70a4f7;
+}
+
+.pagination {
+    display: inline-block;
+    margin: 20px;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #a1c4fd;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color:white;
+    border-radius: 5px;
+}
