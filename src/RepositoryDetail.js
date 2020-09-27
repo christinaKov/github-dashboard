@@ -82,7 +82,7 @@ function RepositoryDetail({ match }) {
                         {/* Returning contributors list if isn't empty */}
                         {(listOfContributors.length > 0)
                             ?   <div className='list-of-contributors'>
-                                    <p>10 наиболее активных контрибьютеров:</p>
+                                    <p>10 наиболее активных контрибьюторов:</p>
                                     <ul>
                                         {listOfContributors.slice(0, 10).map(contributor => (
                                             <li key={contributor}>{contributor}</li>
